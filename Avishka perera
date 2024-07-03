@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avishka Perera</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 1em 0;
+            background: #444;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 10px;
+        }
+        .about, .contact, .categories {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Avishka Perera's Photography Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="about">
+            <h2>About Me</h2>
+            <p>I am Avishka Perera. I want to show the beauty of the world to all of you. I want to show the beautiful people living in the beautiful world. So I bring you different types of pictures. Stay with me. Thank you.</p>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>Gallery</h2>
+            <img src="photo1.jpg" alt="Photo 1">
+            <img src="photo2.jpg" alt="Photo 2">
+            <img src="photo3.jpg" alt="Photo 3">
+            <!-- Add more photos here -->
+        </section>
+        <section id="categories" class="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li>Landscapes Photography</li>
+                <li>Portrait Photography</li>
+                <li>Nature Photography</li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>WhatsApp: 0769432369</p>
+            <p><a href="https://www.facebook.com/profile.php?id=61560083424267&mibextid=ZbWKwL" target="_blank">Facebook Profile</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Avishka Perera's Photography Portfolio</p>
+    </footer>
+</body>
+</html>
